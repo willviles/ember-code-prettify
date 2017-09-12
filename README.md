@@ -1,11 +1,15 @@
 Ember Code Prettify ![Download count all time](https://img.shields.io/npm/dt/ember-code-prettify.svg) [![npm](https://img.shields.io/npm/v/ember-code-prettify.svg)](https://www.npmjs.com/package/ember-code-prettify)
 ======
 
-Ember Code Prettify exposes a service to render [Google Code Prettify](https://github.com/google/code-prettify) syntax highlighting in Ember.js applications.
+Ember Code Prettify exposes a service to fire [Google Code Prettify](https://github.com/google/code-prettify) syntax highlighting in Ember.js routes and components.
+
+<img src="https://user-images.githubusercontent.com/2046935/30334052-64dfba90-97d6-11e7-9b5e-8be0fa80682c.png" width="auto" height="auto">
 
 ## Installation
 
-`ember install ember-code-prettify`
+```
+ember install ember-code-prettify
+```
 
 ## Configuration
 
