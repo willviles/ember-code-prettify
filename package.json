@@ -1,24 +1,41 @@
 {
   "name": "ember-code-prettify",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember.js addon for using Google Code Prettify syntax highlighting",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "code",
+    "highlighting",
+    "syntax",
+    "google-code-prettify"
   ],
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Will Viles",
+    "email": "will@vil.es",
+    "url": "willviles.com"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willviles/ember-code-prettify.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "broccoli-debug": "^0.6.3",
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^2.0.0",
+    "code-prettify": "^0.1.0",
+    "ember-cli-babel": "^6.3.0",
+    "fastboot-transform": "^0.1.2",
+    "object-assign": "^4.1.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
